@@ -1,6 +1,11 @@
 import math
 
 def wallpapers_calc(width_room,lenght_room,height_room,width_wallpapers,lenght_wallpapers):
+    """
+    >>> wallpapers_calc(3,6,2.6,1.4,10)
+    4
+
+    """
     #Периметр комнаты
     perimeter_room = (width_room + lenght_room) * 2
 
